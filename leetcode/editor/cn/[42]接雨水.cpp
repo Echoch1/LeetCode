@@ -25,6 +25,6 @@ public:
 
 int main() {
     Solution s;
-    vector<int> nums = {5, 4, 5};
+    vector<int> nums = { 5, 4, 5 };
     cout << s.trap(nums) << endl;
 }
