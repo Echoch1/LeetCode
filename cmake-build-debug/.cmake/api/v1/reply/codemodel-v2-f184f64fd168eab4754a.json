@@ -12,11 +12,7 @@
 						"string" : "3.26"
 					},
 					"projectIndex" : 0,
-					"source" : ".",
-					"targetIndexes" : 
-					[
-						0
-					]
+					"source" : "."
 				}
 			],
 			"name" : "Debug",
@@ -27,23 +23,10 @@
 					[
 						0
 					],
-					"name" : "LeetCode",
-					"targetIndexes" : 
-					[
-						0
-					]
+					"name" : "LeetCode"
 				}
 			],
-			"targets" : 
-			[
-				{
-					"directoryIndex" : 0,
-					"id" : "LeetCode::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-LeetCode-Debug-fb7218e5c230dc08d191.json",
-					"name" : "LeetCode",
-					"projectIndex" : 0
-				}
-			]
+			"targets" : []
 		}
 	],
 	"kind" : "codemodel",
