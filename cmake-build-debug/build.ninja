@@ -40,42 +40,6 @@ include CMakeFiles/rules.ninja
 # Logical path to working directory; prefix for absolute paths.
 
 cmake_ninja_workdir = D$:/code/LeetCode/cmake-build-debug/
-# =============================================================================
-# Object build statements for EXECUTABLE target LeetCode
-
-
-#############################################
-# Order-only phony target for LeetCode
-
-build cmake_object_order_depends_target_LeetCode: phony || CMakeFiles/LeetCode.dir
-
-build CMakeFiles/LeetCode.dir/main.cpp.obj: CXX_COMPILER__LeetCode_unscanned_Debug D$:/code/LeetCode/main.cpp || cmake_object_order_depends_target_LeetCode
-  DEP_FILE = CMakeFiles\LeetCode.dir\main.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\LeetCode.dir
-  OBJECT_FILE_DIR = CMakeFiles\LeetCode.dir
-  TARGET_COMPILE_PDB = CMakeFiles\LeetCode.dir\
-  TARGET_PDB = LeetCode.pdb
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target LeetCode
-
-
-#############################################
-# Link the executable LeetCode.exe
-
-build LeetCode.exe: CXX_EXECUTABLE_LINKER__LeetCode_Debug CMakeFiles/LeetCode.dir/main.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\LeetCode.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\LeetCode.dir\
-  TARGET_FILE = LeetCode.exe
-  TARGET_IMPLIB = libLeetCode.dll.a
-  TARGET_PDB = LeetCode.pdb
-
 
 #############################################
 # Utility command for edit_cache
@@ -102,8 +66,6 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build LeetCode: phony LeetCode.exe
-
 # =============================================================================
 # Folder targets.
 
@@ -112,7 +74,7 @@ build LeetCode: phony LeetCode.exe
 #############################################
 # Folder: D:/code/LeetCode/cmake-build-debug
 
-build all: phony LeetCode.exe
+build all: phony
 
 # =============================================================================
 # Built-in targets
