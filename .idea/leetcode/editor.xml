@@ -3,6 +3,28 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1996]The Number of Weak Characters in the Game.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1996]The Number of Weak Characters in the Game.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1996" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1996]The Number of Weak Characters in the Game.cpp" />
+              <option name="titleSlug" value="the-number-of-weak-characters-in-the-game" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[2865]Beautiful Towers I.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[2865]Beautiful Towers I.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2865" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[2865]Beautiful Towers I.cpp" />
+              <option name="titleSlug" value="beautiful-towers-i" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[42]接雨水.cpp">
           <value>
             <LeetcodeEditor>
