@@ -47,6 +47,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[853]Car Fleet.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[853]Car Fleet.md" />
+              <option name="frontendQuestionId" value="leetcode.cn853" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[853]Car Fleet.cpp" />
+              <option name="titleSlug" value="car-fleet" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[85]最大矩形.cpp">
           <value>
             <LeetcodeEditor>
