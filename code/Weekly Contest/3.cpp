@@ -4,26 +4,28 @@ using namespace std;
 class Solution {
 public:
     int numberOfSubmatrices(vector<vector<char>>& grid) {
-        int x = grid.size();
-        int y = grid[0].size();
-        vector<vector<int>> dp(x + 1, vector<int>(y + 1, 0));
-        vector<vector<int>> dpx(x + 1, vector<int>(y + 1, 0));
-        vector<vector<int>> dpy(x + 1, vector<int>(y + 1, 0));
-        for (int i = 0; i < grid.size(); ++i) {
-            dpx[i + 1][1] = dpx[i][1];
-            dpy[i + 1][1] = dpy[i][1];
-            for (int j = 0; j < grid[0].size(); ++j) {
+        int n = grid.size();
+        int m = grid[0].size();
+        vector<int> dpX(m, 0);
+        vector<int> dpY(m, 0);
+        int res = 0;
+        for (int i = 0; i < n; ++i) {
+            int countX = 0;
+            int countY = 0;
+            for (int j = 0; j < m; ++j) {
                 if (grid[i][j] == 'X') {
-                    dpx[i + 1][j + 1] = dpx[i + 1][j] + 1;
+                    dpX[j]++;
                 } else if (grid[i][j] == 'Y') {
-                    dpy[i + 1][j + 1] = dpy[i + 1][j] + 1;
+                    dpY[j]++;
                 }
-                if ((dpx[i + 1][j + 1] == dpy[i + 1][j + 1]) && dpx[i + 1][j + 1]) {
-                    dp[i + 1][j + 1] = dp[i][j + 1] + dp[i + 1][j] + 1;
+                countX += dpX[j];
+                countY += dpY[j];
+                if ((countX == countY) && countX) {
+                    res++;
                 }
             }
         }
-        return dp[x][y];
+        return res;
     }
 };
 
